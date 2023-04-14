@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+button {
+  font-style: normal;
+  border: none;
+  width: 134px;
+  height: 35px;
+  border-radius: 22px;
+  font-size: 16px;
+  line-height: 19.36px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  background: #0D47A1;
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: transform 200 ease;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding:0 ;
+  text-align: center;
+} */
+
+
