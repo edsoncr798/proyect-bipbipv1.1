@@ -1,10 +1,10 @@
 <template>
   <section class="home w-full flex h-full relavite items-center">
-    <div class="ml-[30px] absolute ">
-      <h1 class=" text-white font-medium text-6xl leading-[120px]">
+    <div class="left-[243px] top-[221px] absolute ">
+      <h1 class=" text-white font-medium text-6xl leading-[70px]">
         Aprovecha los multiples <br> servicios con la mejor <br> solución
       </h1>
-      <div class="flex">
+      <div class="flex mt-10">
         <button class="w-[192.68px] mr-5 h-[60px]">
           <img
             class="rounded-[15px] w-full h-full"
