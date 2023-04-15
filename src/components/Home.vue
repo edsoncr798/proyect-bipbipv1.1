@@ -1,6 +1,10 @@
+<script lang="ts" setup>
+import MenuToggleUsers from './shared/MenuToggleUsers.vue'
+</script>
+
 <template>
-  <section class="home w-full flex h-full relavite items-center">
-    <div class="left-[243px] top-[221px] absolute ">
+  <section class="home w-full flex h-full relavite items-center justify-center">
+    <div class="mx-auto w-[670px]   absolute ">
       <h1 class=" text-white font-medium text-6xl leading-[70px]">
         Aprovecha los multiples <br> servicios con la mejor <br> solución
       </h1>
@@ -21,6 +25,7 @@
         </button>
       </div>
     </div>
+    <MenuToggleUsers/>
   </section>
 </template>
 

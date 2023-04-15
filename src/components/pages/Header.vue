@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 </script>
 <template>
-    <header class='w-full absolute z-50 h-16 '>
-        <div class="justify-between max-w-full  items-center w-4/5 flex  h-full mx-auto">
+    <header class='w-full absolute md:p-6 z-10 h-16 '>
+        <div class="justify-between min-w-[835px] container max-w-[1450px] items-center w-4/5 flex  h-full mx-auto">
             <div class="flex w-[450px] justify-between items-center">
                 <div class="h-10 w-32">
                     <img class="" src="../../../images/logo_whitebg.png" alt="">
