@@ -25,7 +25,7 @@ import MenuToggleUsers from './shared/MenuToggleUsers.vue'
         </button>
       </div>
     </div>
-    <MenuToggleUsers/>
+    <MenuToggleUsers class="hidden" />
   </section>
 </template>
 
