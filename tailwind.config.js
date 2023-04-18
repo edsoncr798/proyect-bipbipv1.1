@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'btn-hover': 'rgba(13, 71, 161, 1)'
+      }
+    },
   },
   plugins: [],
 }
