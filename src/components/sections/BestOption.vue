@@ -8,7 +8,7 @@
       >
         Somos tu mejor opción
       </h1>
-      <div class="">
+      <div>
         <div class="min-w-[350px] max-w-[1065px] max-h-[576px]">
           <img
             class="h-full w-full rounded-[10px] sm:rounded-[30px]"
@@ -17,12 +17,12 @@
           />
         </div>
         <h2
-          class="text-center not-italic leading-[40px] lg:leading-[80px] text-[#0D47A1] font-medium text-[20px] md:text-[30px] lg:text-[40px]"
+          class="text-[#0D47A1] text-center font-medium not-italic md:text-[30px] lg:text-[40px] lg:leading-[80px]"
         >
           Porque siempre pensamos en ti primero
         </h2>
         <p
-          class="text-center not-italic font-normal text-[15px] md:text-[20px] lg:text-[28px] leading-[35px] lg:leading-[40px]"
+          class="text-center not-italic font-normal text-[15px] md:text-[20px] lg:text-[28px] lg:leading-[35px]"
         >
           Te damos la libertad de escoger el precio mas cómodo.
         </p>
@@ -34,7 +34,7 @@
         <div class="lg:max-w-[483px]">
           <div class="w-full">
             <img
-              class="w-full h-full rounded-[15px]"
+              class="w-full shadow-xl h-full rounded-[15px]"
               src="../../../images/image4.jpeg"
               alt=""
             />
@@ -52,7 +52,7 @@
         <div class="lg:max-w-[483px]">
           <div class="w-full">
             <img
-              class="w-full h-full rounded-[15px]"
+              class="shadow-xl w-full h-full rounded-[15px]"
               src="../../../images/image3.jpeg"
               alt=""
             />

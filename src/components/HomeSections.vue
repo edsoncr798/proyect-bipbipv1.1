@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import MenuToggleUsers from './shared/MenuToggleUsers.vue'
 import BestOption from './sections/BestOption.vue'
+import HowFunction from './sections/HowFunction.vue';
+import MakeACall from './sections/MakeACall.vue';
 </script>
 <template>
   <section class="home w-full flex h-screen  items-center">
@@ -28,9 +30,11 @@ import BestOption from './sections/BestOption.vue'
     <MenuToggleUsers class="hidden" />
   </section>
   <Best-option/>
+  <HowFunction/>
+  <MakeACall/>
 </template>
 
-<style>
+<style >
 
 
 .home {
