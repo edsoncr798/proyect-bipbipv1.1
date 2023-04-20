@@ -2,15 +2,15 @@
   <section
     class="w-full px-[20px] bg-[#1A237E] mt-[15px] rounded-tl-[22px] rounded-tr-[22px]"
   >
-    <article class="max-w-[1065px] mx-auto">
+    <article class="py-[30px] max-w-[1065px] mx-auto">
       <h1
         class="text-white text-center font-medium not-italic leading-[25px] md:text-[30px] lg:text-[40px] lg:leading-[66px]"
       >
         !COMIENZA A AHORRAR YA, VIAJA CON NOSOTROS!
       </h1>
-      <div class="w-full flex justify-between flex-wrap">
-        <div>
-          <div class="max-w-[100px]">
+      <div class="w-full flex justify-between flex-wrap mt-[30px]">
+        <div class="mb-[10px]">
+          <div class="mt-[-9px] lg:mt-[-0px] mb-[5px] w-[70px] md:w-[100px]">
             <img class="w-full h-full" src="../../../images/bibbip2.png" alt="" />
           </div>
           <p
@@ -83,16 +83,16 @@
             PLATAFORMAS
           </h2>
           <div class="flex flex-col md:gap-[5px]">
-            <button class=" md:w-[155.19px] md:h-[48.33px]">
+            <button class=" w-[100px] h-[30.px] md:w-[155.19px] md:h-[48.33px]">
               <img
-                class="w-[60%] rounded-[5px] md:rounded-[10px] lg:w-full lg:h-full"
+                class="w-[100%] rounded-[5px] md:rounded-[10px] lg:w-full lg:h-full"
                 src="../../../images/image.jpeg"
                 alt=""
               />
             </button>
-            <button class=" md:w-[155.19px] md:h-[48.33px]">
+            <button class="w-[100px] h-[30.px] md:w-[155.19px] md:h-[48.33px]">
               <img
-                class="w-[60%] rounded-[5px] md:rounded-[10px] lg:w-full lg:h-full"
+                class="w-[100%] rounded-[5px] md:rounded-[10px] lg:w-full lg:h-full"
                 src="../../../images/app+store2.jpeg"
                 alt=""
               />
@@ -101,17 +101,17 @@
         </div>
       </div>
 
-      <div class="flex">
-        <button class="mr-[2px] w-[40px] h-[40px] lg:w-[60px] lg:h-[60px] rounded-[50%] bg-black">
+      <div class="flex mt-[40px]">
+        <button class=" hover:scale-105 transition duration-200 ease-in-out border-2 border-white bg-black mr-[5px] w-[40px] h-[40px] lg:w-[60px] lg:h-[60px] rounded-[50%]">
           <i class="text-white text-2xl fa-brands fa-facebook-f"></i>
         </button>
-        <button class="mr-[2px] w-[40px] h-[40px] lg:w-[60px] lg:h-[60px] rounded-[50%] bg-black">
+        <button class="hover:scale-105 transition duration-200 ease-in-out border-2 border-white mr-[5px] w-[40px] h-[40px] lg:w-[60px] lg:h-[60px] rounded-[50%] bg-black">
           <i class="text-white text-2xl fa-brands fa-instagram"></i>
         </button>
-        <button class="mr-[2px] w-[40px] h-[40px] lg:w-[60px] lg:h-[60px] rounded-[50%] bg-black">
+        <button class="hover:scale-105 transition duration-200 ease-in-out border-2 border-white mr-[5px] w-[40px] h-[40px] lg:w-[60px] lg:h-[60px] rounded-[50%] bg-black">
           <i class="text-white text-2xl fa-brands fa-whatsapp"></i>
         </button>
-        <button class="w-[40px] h-[40px] lg:w-[60px] lg:h-[60px] rounded-[50%] bg-black">
+        <button class="hover:scale-105 transition duration-200 ease-in-out border-2 border-white w-[40px] h-[40px] lg:w-[60px] lg:h-[60px] rounded-[50%] bg-black">
           <i class="text-white text-2xl fa-brands fa-tiktok"></i>
         </button>
       </div>
