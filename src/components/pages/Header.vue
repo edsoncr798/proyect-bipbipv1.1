@@ -21,7 +21,7 @@ const isLogin = ref(false);
         <div class="h-[38px] w-[126px] z-50">
           <img
             class="w-full h-full"
-            src="../../../images/logo_whitebg.png"
+            src="../../../images/logo-bip.svg"
             alt=""
           />
         </div>

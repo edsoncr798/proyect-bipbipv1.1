@@ -4,8 +4,8 @@ import { defineComponent, ref } from 'vue';
 const isSelected = ref(false);
 
 const isSelectedClicks = async() => {
-    isSelected.value = !isSelected.value;
-    console.log(isSelected.value)
+    // isSelected.value = !isSelected.value;
+    // console.log(isSelected.value)
 }
 </script>
 
@@ -18,18 +18,18 @@ const isSelectedClicks = async() => {
       <div
         class="rounded-bl-[10px] rounded-br-[10px] mx-auto bg-black w-[70%] h-[20px]"
       ></div>
-      <div class="md:blur-[2px] w-full mt-[40px] px-[10px]">
+      <div class="md:blur-[5px] w-full mt-[40px] px-[10px]">
         <div class="flex" @click="isSelectedClicks">
           <div>
             <div
               :class="{'selected-step': isSelected}"
-              class="w-[50px] h-[50px]  rounded-[50%] bg-[#EAEAEA] border-2 border-[#D8D8D8] text-[#FFFFFF] text-center text-[20px] font-medium leading-[45px]"
+              class="w-[50px] h-[50px]  rounded-[50%] bg-[#0D47A1]  text-[#FFFFFF] text-center text-[20px] font-medium leading-[45px]"
             >
               1
             </div>
             <div 
               :class="{'selected-step': isSelected}"
-              class="w-[5px] h-[50%] bg-[#D8D8D8] mx-auto">
+              class="w-[5px] h-[50%] bg-[#0D47A1] mx-auto">
             </div>
           </div>
           <div class="ml-5 mt-[15px]">

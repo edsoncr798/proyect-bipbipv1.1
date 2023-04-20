@@ -5,8 +5,8 @@ import HowFunctionMobile from "./HowFunctionMobile.vue";
 const isSelected = ref(false);
 
 const isSelectedClicks = async () => {
-  isSelected.value = !isSelected.value;
-  console.log(isSelected.value);
+  // isSelected.value = !isSelected.value;
+  // console.log(isSelected.value);
 };
 </script>
 
@@ -19,13 +19,13 @@ const isSelectedClicks = async () => {
           <div>
             <div
               :class="{ 'selected-step': isSelected }"
-              class="w-[50px] h-[50px] md:w-[70px] md:h-[70px] rounded-[50%] bg-[#EAEAEA] border-2 border-[#D8D8D8] text-[#FFFFFF] text-center text-[45px] font-medium md:font-semibold md:leading-[60px]"
+              class="w-[50px] h-[50px] md:w-[70px] md:h-[70px] rounded-[50%] bg-[#0D47A1]  text-[#FFFFFF] text-center text-[45px] font-medium md:font-semibold md:leading-[60px]"
             >
               1
             </div>
             <div
               :class="{ 'selected-step': isSelected }"
-              class="w-[5px] h-[50px] lg:h-[100%] bg-[#D8D8D8] mx-auto"
+              class="w-[5px] h-[50px] lg:h-[100%] bg-[#0D47A1] mx-auto"
             ></div>
           </div>
           <div class="ml-5 md:ml-10 mt-[15px] md:mt-[0px]">
@@ -79,7 +79,7 @@ const isSelectedClicks = async () => {
             >
               3
             </div>
-            <div class="w-[5px] h-[50px] lg:h-[100%] bg-[#D8D8D8] mx-auto"></div>
+            <div class="w-[5px] h-[65px] lg:h-[100%] bg-[#D8D8D8] mx-auto"></div>
           </div>
           <div class="ml-5 md:ml-10 mt-[15px] md:mt-[0px]">
             <h2

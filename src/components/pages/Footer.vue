@@ -4,8 +4,7 @@
 <template>
     <footer class="footer-contain w-full bg-black">
         <div class='footer-title'>  
-            <i class="fa-solid fa-copyright"></i>
-            Made with 💖 by 
+            © Copyright Bip Bip. Con amor 💖
             <span class="text-blue-800 font-black">DevCloud</span>
         </div>
     </footer>
